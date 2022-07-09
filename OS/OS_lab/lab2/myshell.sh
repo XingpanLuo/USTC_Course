@@ -1,0 +1,1 @@
+cd /home/lumos/oslab/lab2

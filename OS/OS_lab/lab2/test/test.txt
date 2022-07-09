@@ -1,0 +1,4 @@
+// 多管道测试
+ps -aux|grep firefox|grep child|wc
+//多管道及分号测试
+ps -aux|grep firefox|grep child|wc > test_out;echo hello >> test_out;wc < test_out
